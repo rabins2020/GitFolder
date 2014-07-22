@@ -1,0 +1,13 @@
+C:\My Projectts\VenioColletor\VenioColletor\bin\Debug\VenioColletor.exe.config
+C:\My Projectts\VenioColletor\VenioColletor\bin\Debug\VenioColletor.exe
+C:\My Projectts\VenioColletor\VenioColletor\bin\Debug\VenioColletor.pdb
+C:\My Projectts\VenioColletor\VenioColletor\obj\Debug\VenioColletor.Form1.resources
+C:\My Projectts\VenioColletor\VenioColletor\obj\Debug\VenioColletor.Properties.Resources.resources
+C:\My Projectts\VenioColletor\VenioColletor\obj\Debug\VenioColletor.csproj.GenerateResource.Cache
+C:\My Projectts\VenioColletor\VenioColletor\obj\Debug\VenioColletor.exe
+C:\My Projectts\VenioColletor\VenioColletor\obj\Debug\VenioColletor.pdb
+C:\My Projectts\VenioColletor\VenioColletor\bin\Debug\VenioColletor.exe.manifest
+C:\My Projectts\VenioColletor\VenioColletor\bin\Debug\VenioColletor.application
+C:\My Projectts\VenioColletor\VenioColletor\obj\Debug\VenioColletor.csprojResolveAssemblyReference.cache
+C:\My Projectts\VenioColletor\VenioColletor\obj\Debug\VenioColletor.exe.manifest
+C:\My Projectts\VenioColletor\VenioColletor\obj\Debug\VenioColletor.application

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VenioColletor.exe" version="1.0.0.3" publicKeyToken="b7c1f47bfcb9be3a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VenioColletor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VenioColletor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VenioColletor.exe" size="43008">
+      <assemblyIdentity name="VenioColletor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kNcYpa/2q3YRIEWHdoJQ7l19vqu+6zvMIvcn5OVRwwM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VenioColletor.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=nsl-rabindra\rabindra" issuerKeyHash="9aaf8bd03d286d40439eb6ad3a5dcc984f8961cb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wYgtIJ4gOHF0ZKuSL++ua/beaYXKP/T8xaazHNjs8Go=</DigestValue></Reference></SignedInfo><SignatureValue>a/mYcwcEKG+iumYqkRuImZ/JVtJ6i0++MrTzV9kY7fkMpWwrTViobpDq7VTESNKzAnaulKl2kNxCRxfPA5aiz82XAw9/ww29ow4VEZ6GnW1WUrMI1JXQLkT3N0mlvo6QeoKCkWmBg2Mn5irxny/zhpaHUZVK7WBVZZGn41ZrpPk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sA8aiEGijNbafszee2Pd7dwV0U6pZf3qA0pYpxGIdjJ80iqGVXjj2HwtN8dRS8b40i1AdBQNpHs3Trg7YXJSBhrXvlFMhAU4vhCIihliI018W1StJdicjVUvYcElLHIruMzY69wJPuy6UxYDyGYREO/iNUyo41skPioC5GnKNFs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6af0ecd81cb3a6c5fcf43fca8569def66baeef2f92ab64747138209e202d88c1" Description="" Url=""><as:assemblyIdentity name="VenioColletor.exe" version="1.0.0.3" publicKeyToken="b7c1f47bfcb9be3a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=nsl-rabindra\rabindra</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Au7KVkLY/c3aUCRNofjOqwAUoNPJQuYyrjK6bOX2Mjo=</DigestValue></Reference></SignedInfo><SignatureValue>DddtcOHAC1MIbKBGXEXfr2cxpKDNLR9uYNYaVQRbVqPmL1T9qzwugFIP0ZtJsdmTUV5gyMlbFvzEcB9eWl4TlE51YIwJz7qJRl3aapwm+G0OzgdZC8KrGEn4q3BvTJjmbNC+1smys474u1CRXucsVHMtriwrtxv25ucH6KuyQaI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sA8aiEGijNbafszee2Pd7dwV0U6pZf3qA0pYpxGIdjJ80iqGVXjj2HwtN8dRS8b40i1AdBQNpHs3Trg7YXJSBhrXvlFMhAU4vhCIihliI018W1StJdicjVUvYcElLHIruMzY69wJPuy6UxYDyGYREO/iNUyo41skPioC5GnKNFs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQdObFlgVDY5FJPr4J8GL0njANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAbgBzAGwALQByAGEAYgBpAG4AZAByAGEAXAByAGEAYgBpAG4AZAByAGEwHhcNMTQwNjA5MTMxNjMyWhcNMTUwNjA5MTkxNjMyWjA1MTMwMQYDVQQDHioAbgBzAGwALQByAGEAYgBpAG4AZAByAGEAXAByAGEAYgBpAG4AZAByAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALAPGohBoozW2n7M3ntj3e3cFdFOqWX96gNKWKcRiHYyfNIqhlV449h8LTfHUUvG+NItQHQUDaR7N064O2FyUgYa175RTIQFOL4QiIoZYiNNfFtUrSXYnI1VL2HBJSxyK7jM2OvcCT7sulMWA8hmERDv4jVMqONbJD4qAuRpyjRbAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAieD5O/qM6ZqmP+muCaBuF1VcNJhvHgsUCcywZh6b3VlxyGQEFZqBBRjUoUz6TnD5ijHppHMMqLkgxI5ApPMTytCXEwmCkmlS10cAobq9Vut2qvTBF56OcFFxlc17+8RG9qnOtyYSpC9KQ7wu0R0ASXGtzhie2KTNpXwxafqsTA4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
